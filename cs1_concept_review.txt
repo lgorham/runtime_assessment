@@ -1,0 +1,34 @@
+####Runtime:
+1) The number of crackers in the box (linear or O(n) runtime) because worst case you need
+    to check each cracker in order to determine for sure whether or not there is an elephant
+    in the box
+
+2) most efficient: 0(1) --> O(log n) --> O(n) --> O(n log n) --> O(n^2) --> O(n^2)
+
+###Stacks and Queues:
+1) a) Stack b) Queue c) Stack
+2) Queues: line at a coffee shop, doing a breadth-first search of a tree where hierarchy is important
+3) Stacks: a stack of dirty dishes in the sink, doing a depth-first search a tree
+
+###Linked Lists:
+1) The linked list contains three nodes - the apple node, the berry node, and the cherry node. In
+    the diagram each node is indicated by a box divided in two - one box indicating the data, and the other indicating the next attribute
+    Each node contains data - which in this case is the string "apple" for the apple node, and so on
+    Each node also contains a 'next' - which is pointing to the following node on the linked list (or None if the end of the list)
+    The head of the list is the apple node, and the tail is the cherry node
+2) In a singly linked list - each node only keeps track of which node is next, in a doubly linked list
+    each node has an attribute pointing to both the previous and the next nodes in the list, allowing
+    you to traverse in either direction
+3) If we don't keep track of the tail of the linked list, in order to append (place a new node at the end of the list)
+    we would have to traverse the entire list in order to know where to place the new node - making the process O(n).
+    If we simply keep track of the tail we can go directly to the current end of the list, have the old end node
+    now point to the new end node, and point the tail attribute to the new node - all in O(1)
+
+##Trees:
+1)Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, and finally burrito
+2)Italian, lasagna, pizza, thin crust, and then Chicago style
+3)A binary search tree is organized in some systematic order (such as alphabetical, numeric) that
+    allows the program to determine whether or not you've passed the place in the tree where a certain item would
+    be if it were in the binary search tree. In addition, each node in a binary search tree has at most two children. 
+
+
