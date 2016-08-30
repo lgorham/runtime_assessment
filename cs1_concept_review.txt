@@ -3,7 +3,7 @@
     to check each cracker in order to determine for sure whether or not there is an elephant
     in the box
 
-2) most efficient: 0(1) --> O(log n) --> O(n) --> O(n log n) --> O(n^2) --> O(n^2)
+2) most efficient: 0(1) --> O(log n) --> O(n) --> O(n log n) --> O(n^2) --> O(2^n)
 
 ###Stacks and Queues:
 1) a) Stack b) Queue c) Stack

@@ -52,7 +52,7 @@ class Queue(object):
             >>> q.length()
             3
         """
-        return self._list.append(item)
+        self._list.append(item)
 
 
     def peek(self):
