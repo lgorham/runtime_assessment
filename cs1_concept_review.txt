@@ -8,7 +8,7 @@
 ###Stacks and Queues:
 1) a) Stack b) Queue c) Stack
 2) Queues: line at a coffee shop, doing a breadth-first search of a tree where hierarchy is important
-3) Stacks: a stack of dirty dishes in the sink, doing a depth-first search a tree
+3) Stacks: a stack of dirty dishes in the sink, undo botton, doing a depth-first search a tree
 
 ###Linked Lists:
 1) The linked list contains three nodes - the apple node, the berry node, and the cherry node. In

@@ -96,9 +96,11 @@ class Stack(object):
             0
         """
 
-        if len(self._list) != 0:
-            for i in self._list:
-                self._list.pop()
+        # if len(self._list) != 0:
+        #     for i in self._list:
+        #         self._list.pop()
+
+        self._list = []
 
         
 
